@@ -24,6 +24,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: run the tests
-        run: mvn test
+        run: npm test
         env:
           APPLITOOLS_API_KEY: UWWqz0FcyiSx109orZAlStevqIkc5YRHzD5wYllKqQKn8110
