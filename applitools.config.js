@@ -13,5 +13,8 @@ module.exports = {
     // set batch name to the configuration
     batchName: 'CatchCo',
     showLogs: true,
-    failCypressOnDiff: false
+    failCypressOnDiff: false,
+    ignoreDisplacements: true,
+    useDom: true, 
+    enablePatterns: true
 }
