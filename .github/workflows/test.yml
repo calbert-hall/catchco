@@ -32,4 +32,4 @@ jobs:
       - run: npm run test:ci
         env:
           APPLITOOLS_API_KEY: UWWqz0FcyiSx109orZAlStevqIkc5YRHzD5wYllKqQKn8110
-    
+          APPLITOOLS_NOTIFY_ON_COMPLETION: TRUE 
