@@ -9,6 +9,10 @@ module.exports = {
         // Add mobile emulation devices in Portrait mode
         {deviceName: 'iPhone X', screenOrientation: 'portrait'},
         {deviceName: 'Pixel 2', screenOrientation: 'landscape'},
+        {iosDeviceInfo: {
+            deviceName: 'iPhone XR',
+            screenOrientation: 'portrait', 
+        }},
     ],
     // set batch name to the configuration
     batchName: 'CatchCo',

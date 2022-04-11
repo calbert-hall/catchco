@@ -10,7 +10,8 @@ describe("AppTest", () => {
             "https://shopkarls.com/club",
             "https://karls.qa.catchco.io/c/rods-reels",
             "https://karls.qa.catchco.io/c/shop/new",
-            "https://shopkarls.com/p/shimano-curado-k-casting-reel"
+            "https://shopkarls.com/p/shimano-curado-k-casting-reel",
+            "https://shopkarls.com/c/gift-ideas"
 
         ].forEach((url) => {
             cy.visit({
