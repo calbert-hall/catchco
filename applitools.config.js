@@ -13,6 +13,14 @@ module.exports = {
             deviceName: 'iPhone XR',
             screenOrientation: 'portrait', 
         }},
+        {iosDeviceInfo: {
+            deviceName: 'iPad Pro',
+            screenOrientation: 'portrait', 
+        }},
+        {iosDeviceInfo: {
+            deviceName: 'iPad Mini',
+            screenOrientation: 'landscape', 
+        }},
     ],
     // set batch name to the configuration
     batchName: 'CatchCo',
