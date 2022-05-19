@@ -4,8 +4,8 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
 
-  schedule:
-    - cron: "0 */12 * * *"
+  # schedule:
+    # - cron: "0 */12 * * *"
 
   # Allows you to run this :watch: workflow manually from the Actions tab
   workflow_dispatch:
